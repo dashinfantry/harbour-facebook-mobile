@@ -16,6 +16,8 @@ ApplicationWindow
         id: settings
         path: "/apps/harbour-facebook-mobile/settings"
 
+        property bool showRefresh: false
+        property bool showNavbar: false
         property bool showLogout: false
         property int theme: 1
     }

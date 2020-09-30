@@ -5,7 +5,9 @@ import "../js/util.js" as Util
 Dialog {
 
     onAccepted: {
+        settings.showNavbar = showNavbar.checked
         settings.showLogout = showLogout.checked
+        settings.showRefresh = showRefresh.checked
         settings.theme = theme.currentIndex
     }
 
@@ -36,9 +38,21 @@ Dialog {
             }
 
             TextSwitch {
+                id: showNavbar
+                text: qsTr("Show Navigation bar pulldown menu")
+                checked: settings.showNavbar
+            }
+
+            TextSwitch {
                 id: showLogout
                 text: qsTr("Show Facebook logout pulldown menu")
                 checked: settings.showLogout
+            }
+
+            TextSwitch {
+                id: showRefresh
+                text: qsTr("Show Refresh pulldown menu")
+                checked: settings.showRefresh
             }
         }
     }

@@ -100,6 +100,7 @@ Page {
                 color: Util.getPrimaryColor(settings.theme)
                 text: navPanel.open ? qsTr("Hide navigation bar")
                                 : qsTr("Open navigation bar")
+                visible: settings.showNavbar
                 onClicked: {
                     navPanel.open ? navPanel.open = false : navPanel.open = true
                 }
@@ -115,6 +116,7 @@ Page {
             MenuItem {
                 color: Util.getPrimaryColor(settings.theme)
                 text: qsTr("Refresh")
+                visible: settings.showRefresh
                 onClicked: {
                       refresh()
             }
