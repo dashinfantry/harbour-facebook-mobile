@@ -77,7 +77,7 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 linkColor: Theme.highlightColor
 
-                onLinkActivated: Qt.openUrlExternally("mailto:rudi.timmer@mail.ch")
+                onLinkActivated: Qt.openUrlExternally("mailto:rudi.timmer@gmx.com")
             }
 
             AboutLabel {
@@ -102,7 +102,7 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 linkColor: Theme.highlightColor
 
-                onLinkActivated: Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=29THE9VFMZ4PS")
+                onLinkActivated: Qt.openUrlExternally("https://www.paypal.com/paypalme/RudiTimmermans")
             }
 
             SectionHeader { text: qsTr("Licensing") }
@@ -113,25 +113,25 @@ Page {
             }
 
             Text {
-                text: "<a href=\"https://github.com/Xray1870/harbour-fileman\">" + qsTr("Sources on GitHub") + "</a>"
+                text: "<a href=\"https://github.com/Xray1870/harbour-facebook-mobile\">" + qsTr("Sources on GitHub") + "</a>"
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                 }
                 font.pixelSize: Theme.fontSizeSmall
                 linkColor: Theme.highlightColor
 
-                onLinkActivated: Qt.openUrlExternally("https://github.com/Xray1870/harbour-fileman")
+                onLinkActivated: Qt.openUrlExternally("https://github.com/Xray1870/harbour-facebook-mobile")
             }
 
             Text {
-                text: "<a href=\"https://github.com/Xray1870/harbour-fileman/issues\">" + qsTr("Report an Issue") + "</a>"
+                text: "<a href=\"https://github.com/Xray1870/harbour-facebook-mobile/issues\">" + qsTr("Report an Issue") + "</a>"
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                 }
                 font.pixelSize: Theme.fontSizeSmall
                 linkColor: Theme.highlightColor
 
-                onLinkActivated: Qt.openUrlExternally("https://github.com/Xray1870/harbour-fileman/issues")
+                onLinkActivated: Qt.openUrlExternally("https://github.com/Xray1870/harbour-facebook-mobile/issues")
             }
 
             AboutLabel {
