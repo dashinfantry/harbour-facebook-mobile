@@ -1,4 +1,4 @@
-Facebook Mobile is an unofficial Facebook WebView client for Sailfish OS.
+#Facebook Mobile is an unofficial Facebook WebView client for Sailfish OS.
 
 Features:
 
