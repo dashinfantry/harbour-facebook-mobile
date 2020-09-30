@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>css/facebook-mobile-theme-night.css</file>
+        <file>css/facebook-mobile-theme-ambience.css</file>
+        <file>css/facebook-mobile-theme-facebook.css</file>
+    </qresource>
+</RCC>
